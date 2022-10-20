@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7547D5F5-9F42-4DEC-9605-E382F3BE8F6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{D9648183-A15F-4865-9556-F35A3E4C9733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{62112F73-BEE9-4F97-8237-868580384F91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Tag.Domain", "src\modules\Telligent.Tag.Domain\Telligent.Tag.Domain.csproj", "{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Tag.Database", "src\modules\Telligent.Tag.Database\Telligent.Tag.Database.csproj", "{39F249F5-1756-4674-9CDF-A1D8CF42038B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Tag.Application", "src\modules\Telligent.Tag.Application\Telligent.Tag.Application.csproj", "{39231432-3CBF-49BF-9B75-374AE228ABD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Tag.WebApi", "src\applications\Telligent.Tag.WebApi\Telligent.Tag.WebApi.csproj", "{3BB16939-42A9-4B87-8D34-0333999BE51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F249F5-1756-4674-9CDF-A1D8CF42038B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F249F5-1756-4674-9CDF-A1D8CF42038B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F249F5-1756-4674-9CDF-A1D8CF42038B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F249F5-1756-4674-9CDF-A1D8CF42038B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39231432-3CBF-49BF-9B75-374AE228ABD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39231432-3CBF-49BF-9B75-374AE228ABD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39231432-3CBF-49BF-9B75-374AE228ABD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39231432-3CBF-49BF-9B75-374AE228ABD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB16939-42A9-4B87-8D34-0333999BE51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB16939-42A9-4B87-8D34-0333999BE51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB16939-42A9-4B87-8D34-0333999BE51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB16939-42A9-4B87-8D34-0333999BE51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9648183-A15F-4865-9556-F35A3E4C9733} = {7547D5F5-9F42-4DEC-9605-E382F3BE8F6C}
+		{62112F73-BEE9-4F97-8237-868580384F91} = {7547D5F5-9F42-4DEC-9605-E382F3BE8F6C}
+		{4FD932C8-61E7-4A49-8AA4-8D6948EEA3B5} = {62112F73-BEE9-4F97-8237-868580384F91}
+		{39F249F5-1756-4674-9CDF-A1D8CF42038B} = {62112F73-BEE9-4F97-8237-868580384F91}
+		{39231432-3CBF-49BF-9B75-374AE228ABD8} = {62112F73-BEE9-4F97-8237-868580384F91}
+		{3BB16939-42A9-4B87-8D34-0333999BE51F} = {D9648183-A15F-4865-9556-F35A3E4C9733}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18661B3E-D745-427B-9902-123A4FA53030}
+	EndGlobalSection
+EndGlobal

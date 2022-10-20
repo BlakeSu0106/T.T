@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  telligent.tag.webapi:
+    build:
+      context: ../../../
+      dockerfile: ./src/applications/Telligent.Tag.WebApi/Dockerfile
+    network_mode: "host"
+    image: telligent.tag.webapi
+    container_name: telligent.tag.webapi
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+networks:
+  telligent-network:
+    external: true

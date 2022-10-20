@@ -1,0 +1,17 @@
+
+.vs/
+
+src/applications/Telligent.Tag.WebApi/obj/
+src/applications/Telligent.Tag.WebApi/bin/
+
+src/modules/Telligent.Tag.Application/obj/
+src/modules/Telligent.Tag.Application/bin/
+
+src/modules/Telligent.Tag.Database/obj/
+src/modules/Telligent.Tag.Database/bin/
+
+src/modules/Telligent.Tag.Domain/obj/
+src/modules/Telligent.Tag.Domain/bin/
+src/applications/Telligent.Tag.WebApi/logs/
+
+src/applications/Telligent.Tag.WebApi/Telligent.Tag.WebApi.csproj.user
